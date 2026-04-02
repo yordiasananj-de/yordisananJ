@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>yordi sanan</title>
+	<table border="1">
+		<tr>
+			<td>Lunes</td>
+			<td>Martes</td>
+			<td>Miercoles</td>
+			<td>Jueves</td>
+			<td>Viernes</td>
+		</tr>
+		<tr>
+			<td>de</td>
+			<td>vo</td>
+			<td>cio</td>
+			<td>nal</td>
+			<td>¡</td>
+		</tr>
+		<tr>
+		<td>mate</td>
+		<td>conta</td>
+		<td>comu</td>
+		<td>fifu</td>
+		<td>maya</td>
+	</tr>
+	<tr>
+		<td>progra</td>
+		<td>comu</td>
+		<td>compu</td>
+		<td>sociales</td>
+		<td>comu</td>
+	</tr>
+	<tr>
+		<td>ingles</td>
+		<td>ingles</td>
+		<td>ingles</td>
+		<td>educ fisica</td>
+		<td>mate</td>
+	</tr>
+	<tr>
+		<td>comu</td>
+		<td>comu</td>
+		<td>comu</td>
+		<td>conta</td>
+		<td>mate</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>r</td>
+		<td>e</td>
+		<td>cr</td>
+		<td>e</td>
+		<td>o</td>
+	</tr>
+	<tr>
+		<td>sociales</td>
+		<td>biblia</td>
+		<td>empre</td>
+		<td>conta</td>
+		<td>sociales</td>
+	</tr>
+	<tr>
+		<td>artes</td>
+		<td>musica</td>
+		<td>robotica</td>
+		<td>compu</td>
+		<td>sociales</td>
+	</tr>
+	<tr>
+		<td>artes</td>
+		<td>musica</td>
+		<td>quimica</td>
+		<td>ciencias</td>
+		<td>conta</td>
+	</tr>
+	</table>
+</head>
+<body>
+
+</body>
+</html>
