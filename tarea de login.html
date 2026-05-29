@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>login</title>
+</head>
+<style>
+        body{
+            font-family: Arial, sans-serif;
+            background-color: skyblue;
+            text-align: center;
+            margin-top: 100px;
+        }
+
+        .login{
+            background-color: white;
+            width: 300px;
+            margin: auto;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        input{
+            width: 90%;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        button{
+            padding: 10px 20px;
+            background-color: blue;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+
+        #mensaje{
+            margin-top: 15px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="login">
+
+        <h1>Login de mi negocio</h1>
+
+        <input type="text" id="usuario" placeholder="Usuario">
+
+        <input type="password" id="contrasena" placeholder="Contraseña">
+
+        <button onclick="validar()">Ingresar</button>
+
+        <p id="mensaje"></p>
+
+    </div>
+
+    <script>
+
+        function validar(){
+
+            let usuario = document.getElementById("usuario").value;
+            let contrasena = document.getElementById("contrasena").value;
+
+            let usuarioCorrecto = "admin";
+            let contrasenaCorrecta = "1234";
+
+            if(usuario == usuarioCorrecto && contrasena == contrasenaCorrecta){
+
+                document.getElementById("mensaje").innerHTML = "Usuario correcto";
+
+            }else{
+
+                document.getElementById("mensaje").innerHTML = "Vuelve a intentar";
+
+            }
+
+        }
+
+    </script>
+
+
+</body>
+</html>
