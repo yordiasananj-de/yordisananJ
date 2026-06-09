@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #0f172a, #16a34a);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .registro-contenedor {
+            width: 380px;
+            background-color: white;
+            padding: 35px;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+            text-align: center;
+        }
+
+        .registro-contenedor h1 {
+            margin-bottom: 10px;
+            color: #15803d;
+        }
+
+        .registro-contenedor p {
+            color: #555;
+            margin-bottom: 25px;
+        }
+
+        .campo {
+            text-align: left;
+            margin-bottom: 16px;
+        }
+
+        .campo label {
+            display: block;
+            margin-bottom: 6px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .campo input {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #bbb;
+            border-radius: 8px;
+            font-size: 15px;
+            box-sizing: border-box;
+        }
+
+        .campo input:focus {
+            outline: none;
+            border-color: #16a34a;
+            box-shadow: 0 0 5px rgba(22, 163, 74, 0.4);
+        }
+
+        .terminos {
+            text-align: left;
+            font-size: 14px;
+            margin-bottom: 20px;
+            color: #444;
+        }
+
+        .terminos a {
+            color: #16a34a;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .terminos a:hover {
+            text-decoration: underline;
+        }
+
+        button {
+            width: 100%;
+            background-color: #15803d;
+            color: white;
+            padding: 13px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #166534;
+        }
+
+        .login {
+            margin-top: 20px;
+            font-size: 14px;
+        }
+
+        .login a {
+            color: #16a34a;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .login a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="registro-contenedor">
+        <h1>Crear Cuenta</h1>
+        <p>Completa tus datos para registrarte</p>
+
+        <form>
+            <div class="campo">
+                <label for="nombre">Nombre completo</label>
+                <input type="text" id="nombre" placeholder="Escribe tu nombre completo">
+            </div>
+
+            <div class="campo">
+                <label for="correo">Correo electrónico</label>
+                <input type="email" id="correo" placeholder="ejemplo@correo.com">
+            </div>
+
+            <div class="campo">
+                <label for="usuario">Usuario</label>
+                <input type="text" id="usuario" placeholder="Crea un nombre de usuario">
+            </div>
+
+            <div class="campo">
+                <label for="password">Contraseña</label>
+                <input type="password" id="password" placeholder="Crea una contraseña">
+            </div>
+
+            <div class="campo">
+                <label for="confirmar">Confirmar contraseña</label>
+                <input type="password" id="confirmar" placeholder="Repite tu contraseña">
+            </div>
+
+            <div class="terminos">
+                <label>
+                    <input type="checkbox">
+                    Acepto los <a href="#">términos y condiciones</a>
+                </label>
+            </div>
+
+            <button type="submit">Registrarme</button>
+        </form>
+
+        <div class="login">
+            ¿Ya tienes cuenta? <a href="#">Inicia sesión</a>
+        </div>
+    </div>
+
+</body>
+</html>
